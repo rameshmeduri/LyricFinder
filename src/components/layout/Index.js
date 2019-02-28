@@ -1,14 +1,12 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Tracks from '../tracks/Tracks';
 import Search from '../tracks/Search';
 
-const Index = () => {
-  return (
-    <React.Fragment>
-      <Search />
-      <Tracks />
-    </React.Fragment>
-  );
-};
+const Index = () => (
+  <Fragment>
+    <Search />
+    <Tracks />
+  </Fragment>
+);
 
 export default Index;
